@@ -1,3 +1,3 @@
-These websites are created for academic purposes (Quarter Project) only. Aside from the pictures used, everything else belongs to me.
+These websites were created for academic purposes (Quarter Project). Aside from the pictures and spotify playlist used, everything else belongs to me.
 
 
