@@ -1,0 +1,16 @@
+body {
+  background-image:url('../img/beach-walking-bg.jpeg');
+  background-position:center;
+}
+
+a {
+  color:#5b4c43;
+}
+
+#footer {
+  color:#b0bfcd;
+}
+  
+#pov-body .text {
+  background-color:#8BA9C3;
+}

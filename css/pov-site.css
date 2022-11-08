@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bookman-old-style');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  height:100%;
+  max-width:fit-content;
+  min-width:fit-content;
+  display:grid;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+iframe {
+  border:0px;
+}
+
+/* SECTION 0: FONTS */
+a {
+  text-decoration:none;
+}
+
+li {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family:'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family:"Bookman Old Style", serif;
+}
+
+/* SECTION 1: [HEADER] NAVIGATION BAR */
+#navbar {
+  display:flex;
+  height:8vh;
+  width:100%;
+  align-items:center;
+  justify-content:space-between;
+  padding:0.5em 1em;
+}
+
+.links {
+  list-style-type:none;
+  display:flex;
+  justify-content:space-between;
+  column-gap:1em;
+}
+
+/* SECTION 2.1: [ARTICLE] STORY TEXT */
+#pov-body {
+  width:100%;
+  min-height:84vh;
+  max-height:fit-content;
+  display:grid;
+  grid-gap:4.5%;
+  grid-template-columns:65% 35%;
+}
+
+#pov-body .text {
+  opacity:85%;
+  width:100%;
+  height:auto;
+  margin:1em;
+  margin-left:2em;
+  padding:2em;
+  align-items:center;
+  justify-content:center;
+}
+
+#pov-body .playlist {
+  width:80%;
+  padding:1.5em;
+}
+
+aside {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* SECTION 3: [FOOTER] FOOTER CONTENT */
+#footer {
+  min-height:8vh;
+  max-height:fit-content;
+  width:100%;
+  padding:1em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}

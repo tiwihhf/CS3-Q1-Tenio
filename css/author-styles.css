@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/bookman-old-style');
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+a {
+  text-decoration:none;
+}
+
+body {
+  height:100%;
+  max-width:fit-content;
+  min-width:fit-content;
+  display:grid;
+  background-image:url('../img/author-bg.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.important {
+  color:#E31C79;
+}
+
+/* SECTION 0: FONTS */
+p {
+  font-family:'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family:"Bookman Old Style", serif;
+}
+
+li {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* SECTION 1: [HEADER] NAVIGATION BAR */
+#navbar {
+  display:flex;
+  height:8vh;
+  max-width:100%;
+  align-items:center;
+  justify-content:space-between;
+  padding:0.5em 1em;
+}
+    
+.links {
+  max-width:100%;
+  list-style-type:none;
+  display:flex;
+  justify-content:space-between;
+  column-gap:1em;
+}
+
+/* SECTION 2: [SECTION] ABOUT THE AUTHOR */
+#about {
+  width:100%;
+  height:fit-content;
+  display:flex;
+  flex-direction:column;
+  row-gap:3em;
+  padding:2.5em 8em;
+}
+
+img {
+  width:175px;
+  height:150px;
+  object-fit:cover;
+}
+
+.info {
+  height:fit-content;
+  width:100%;
+  display:flex;
+  align-items:flex-start;
+  border-radius:20px;
+  padding:2.5em;
+  column-gap:3em;
+  opacity:0.8;
+}
+
+.content {
+  display:flex;
+  flex-direction:column;
+  row-gap:1em;
+}
+
+.text {
+  display:flex;
+  flex-direction:column;
+  row-gap:0.5em;
+  align-self:center;
+}
+  
+.text p {
+  text-align:justify;
+}
+
+/* SECTION 2.1: [DIV] GENERAL INFORMATION */
+#general {
+  background-color:#fbe6ff;
+}
+
+/* SECTION 2.2: [DIV] MY INTERESTS */
+#interests {
+  background-color:#fbe6ff;
+  flex-direction:row-reverse;
+}
+
+/* SECTION 2.3: [DIV] MY HOBBIES */
+#hobbies {
+  background-color:#fbe6ff;
+}
+
+/* SECTION 3: FOOTER */
+#footer {
+  min-height:8vh;
+  max-height:fit-content;
+  width:100%;
+  padding:1em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#fbe6ff;
+}

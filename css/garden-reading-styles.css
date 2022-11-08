@@ -1,0 +1,12 @@
+body {
+  background-image:url('../img/garden-reading-bg.jpg');
+}
+
+a,
+#footer {
+  color:#ffe678;
+}
+
+#pov-body .text {
+  background-color:#CEBFA0;
+}
